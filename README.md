@@ -1,6 +1,6 @@
 # React + Vite
 
-Demo: https://ecommerce-website-omega-five.vercel.app/
+Visit website: https://ecommerce-website-omega-five.vercel.app/
 
 
 
