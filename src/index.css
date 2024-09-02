@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active{
+  background-color:rgba(78, 192, 218, 0.954);
+  padding: 1vh 1vw;
+  border-radius: 15px;
+  transition: none;
+  transform: none;
+}
+.slick-prev{
+  position: relative !important;
+  height: fit-content ;
+}
+.not{
+  margin-bottom: 10vh !important;
+}
+.cart{  
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  border-top-left-radius: 4px !important;
+  transition: all 0.5s;
+}
+.fav{  
+  border-bottom-right-radius: 4px !important;
+  border-top-right-radius: 0px !important;  border-top-left-radius: 5px !important;
+  transition: all 0.5s;
+}
+body{
+  background-color:#fae8ff
+}
+
+.mono{
+  font-family:'Times New Roman', Times, serif;
+}
+/* Chrome, Safari, Edge, Opera */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000000s ease-in-out 0s;
+    -webkit-text-fill-color: #d4e6fa;
+}
